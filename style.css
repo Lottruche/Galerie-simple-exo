@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(172, 172, 172);
+    color: rgb(53, 53, 53);
+}
+
+.galerie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+img {
+    max-width: 20vw;
+}
+
+figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 20vw;
+}
+
+footer {
+    background-color: rgb(53, 53, 53);
+    color: rgb(172, 172, 172);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 3vw 5vw 6vw;
+    margin-top: 4vw;
+}
+
+@media screen and (max-width:620px) {
+    img {
+        max-width: 32vw;
+    }
+
+}
